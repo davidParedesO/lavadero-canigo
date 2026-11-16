@@ -6,3 +6,5 @@ Página estática: `index.html` + `img/`. Las fotos son de stock de Unsplash (li
 Lleva `noindex` mientras es una vista previa; quitarlo al publicar en el dominio definitivo.
 
 Sin cookies (las únicas peticiones externas son las fotos de Unsplash de la vista previa): las fuentes (Unbounded y Figtree, licencia OFL) se sirven desde `fonts/`, así que no hace falta banner de cookies. Si se añade Google Analytics o un mapa de Google incrustado, habrá que poner banner.
+
+Al pasar al dominio definitivo, actualizar las URL de `og:url` y `og:image` en `index.html`. El mapa es un iframe de OpenStreetMap.
